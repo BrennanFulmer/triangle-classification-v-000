@@ -43,7 +43,6 @@ class Triangle
       rescue TriangleError => error 
         puts error.message
       end
-      false
     end
   end
   
