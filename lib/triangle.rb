@@ -16,7 +16,6 @@ class Triangle
   end
 
   def balanced_sides?
-    # sum of any two sides must exceed the third
     if side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1
       true
     else
