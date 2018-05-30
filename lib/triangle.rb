@@ -28,13 +28,10 @@ class Triangle
   def kind
     if high_enough? && balanced_sides?
       if side1 == side2 && side1 == side3
-        # all sides equal
         :equilateral
       elsif side1 == side2 || side1 == side3 || side2 == side3
-        # two sides equal
         :isosceles
       else
-        # no equal sides
         :scalene
       end
     else
